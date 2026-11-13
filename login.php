@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head><title>Login</title><link rel="stylesheet" href="style.css"></head>
 <body>
 <div class="box">
-  <h2>Login</h2>
+  <h2>CNS Student Login</h2>
   <p class="msg"><?php echo $message; ?></p>
   <form method="POST" action="login.php">
     Username <input type="text" name="username" required>
