@@ -1,0 +1,9 @@
+name: Serverless demo
+on: push
+jobs:
+  run-function:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run function
+        run: echo "Function executed at $(date)"
